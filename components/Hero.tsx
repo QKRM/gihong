@@ -1,18 +1,17 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
   return (
     <div className="relative h-screen w-full bg-white overflow-hidden flex flex-col md:flex-row items-center justify-center">
-      {/* Spline 3D Embed */}
-      <div className="absolute inset-0 z-0">
+      {/* Spline 3D Embed - Added pointer-events-none to allow scrolling over the iframe */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <iframe 
           src='https://my.spline.design/transformmachine-ZeclrQt3dnmZKvfkD6YkFY3f/' 
           frameBorder='0' 
           width='100%' 
           height='100%'
           title="GIHONG 3D Machine"
-          className="opacity-90"
+          className="opacity-90 w-full h-full"
         ></iframe>
       </div>
 
