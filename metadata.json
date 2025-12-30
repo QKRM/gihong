@@ -1,0 +1,7 @@
+{
+  "name": "GIHONG Landing Page",
+  "description": "A modern, high-tech landing page for GIHONG Co., Ltd., a leader in industrial plant engineering and machinery, featuring 3D visualization and comprehensive business information.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
